@@ -218,7 +218,7 @@ class MyApp extends StatelessWidget {
           title: Text('Welcome To Programming Lab'),
           content: Column(
             children: [
-              Image.asset
+              Image.asset(
                 'assets/images/Programming lab.png',
                 height: 350,
               ),
